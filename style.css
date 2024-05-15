@@ -26,24 +26,14 @@ ul {
  }
 .nav-bar .links ul li {
    margin: 0 30px;
-   transition: 0.4s;
-   -webkit-transition: 0.4s;
-   -moz-transition: 0.4s;
-   -ms-transition: 0.4s;
-   -o-transition: 0.4s;
-   border-bottom: 4px solid transparent;
-   border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   -ms-border-radius: 3px;
-   -o-border-radius: 3px;
 }
  .nav-bar .links ul li a {
    text-decoration: none;
    color: hsl(243, 87%, 12%);
+   transition: 0.4s;
 }
-.nav-bar .links ul li:hover {
-   border-bottom: 4px solid hsl(243, 87%, 12%);
+.nav-bar .links ul li a:hover {
+   color: hsl(224, 54%, 58%);
 }
 @media (max-width: 555px) {
    .nav-bar .logo img {
@@ -71,9 +61,57 @@ ul {
    display: flex;
    flex-direction: row-reverse;
    align-items: center;
+   justify-content: space-around;
    padding-top: 50px;
+   margin: 0 50px;
 }
 .landingOne .image img {
    max-width: 100%;
-   width: 800px;
+   width: 600px;
+}
+.landingOne .content {
+   width: 500px;
+   color: hsl(243, 87%, 12%);
+}
+.landingOne .content h1 {
+   font-size: 32px;
+   line-height: 1.5;
+   padding-bottom: 15px;
+   font-family: "Raleway", sans-serif;
+}
+.landingOne .content p {
+   padding-bottom: 20px;
+}
+.landingOne .content .email {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.landingOne .content .email input {
+   width: 225px;
+   padding: 8px;
+   outline: none;
+}
+.landingOne .content .email .btn {
+   background-color: hsl(224, 93%, 58%);
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   -ms-border-radius: 3px;
+   -o-border-radius: 3px;
+   transition: 0.4s;
+   padding: 8px 30px;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
+}
+.landingOne .content .email .btn:hover {
+   background-color: hsl(224, 54%, 58%);
+}
+.landingOne .content .email .btn a {
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
 }

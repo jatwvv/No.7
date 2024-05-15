@@ -45,3 +45,35 @@ ul {
 .nav-bar .links ul li:hover {
    border-bottom: 4px solid hsl(243, 87%, 12%);
 }
+@media (max-width: 555px) {
+   .nav-bar .logo img {
+      width: 90px;
+   }
+   .nav-bar {
+      height: 50px;
+      margin: 10px 20px;
+   }
+   .nav-bar .links ul li {
+      margin: 0 10px;
+   }
+}
+@media (max-width: 321px) {
+   .nav-bar {
+      display: block;
+      text-align: center;
+   }
+    .nav-bar .links ul {
+      justify-content: center;
+      padding-top: 20px;
+    }
+}
+.landingOne {
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   padding-top: 50px;
+}
+.landingOne .image img {
+   max-width: 100%;
+   width: 800px;
+}

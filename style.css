@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
- /* font-family: "Raleway", sans-serif; */
- * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- body {
-  font-family: "Open Sans", sans-serif;
- }
+/* font-family: "Raleway", sans-serif; */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+*::selection {
+   background-color: hsl(224, 54%, 58%);
+}
+body {
+ font-family: "Open Sans", sans-serif;
+}
 ul {
    list-style: none;
 }
@@ -114,4 +117,34 @@ ul {
    color: white;
    font-size: 12px;
    font-weight: bold;
+}
+.landingTwo {
+   background-color: #eff2ff;
+   position: relative;
+   top: -10px;
+}
+.landingTwo .content .card p::before {
+   content: "\0022";
+}
+.landingTwo {
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 50px;
+   padding: 0 50px;
+}
+.landingTwo .image img {
+   max-width: 100%;
+   width: 600px;
+}
+.landingTwo .content {
+   width: 525px;
+   color: hsl(243, 87%, 12%);
+}
+.landingTwo .content h1 {
+   font-size: 32px;
+   line-height: 1.5;
+   padding-bottom: 15px;
+   font-family: "Raleway", sans-serif;
 }

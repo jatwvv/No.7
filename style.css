@@ -85,55 +85,15 @@ ul {
 .landingOne .content p {
    padding-bottom: 20px;
 }
-.landingOne .content .email {
-   display: flex;
-   align-items: center;
-   gap: 15px;
-}
-.landingOne .content .email input {
-   width: 225px;
-   padding: 8px;
-   outline: none;
-}
-.landingOne .content .email .btn {
-   background-color: hsl(224, 93%, 58%);
-   border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   -ms-border-radius: 3px;
-   -o-border-radius: 3px;
-   transition: 0.4s;
-   padding: 8px 30px;
-   -webkit-transition: 0.4s;
-   -moz-transition: 0.4s;
-   -ms-transition: 0.4s;
-   -o-transition: 0.4s;
-}
-.landingOne .content .email .btn:hover {
-   background-color: hsl(224, 54%, 58%);
-}
-.landingOne .content .email .btn a {
-   text-decoration: none;
-   color: white;
-   font-size: 12px;
-   font-weight: bold;
-}
 .landingTwo {
    background-color: #f6f8ff;
    position: relative;
    top: -10px;
-}
-.landingTwo .content .card p::before {
-   content: "\0022";
-}
-.landingTwo {
    display: flex;
    flex-direction: row-reverse;
    align-items: center;
    justify-content: space-around;
-   padding-top: 50px;
-   padding: 50px 50px;
-
+   padding: 70px 50px;
 }
 .landingTwo .image img {
    max-width: 100%;
@@ -150,8 +110,8 @@ ul {
    font-family: "Raleway", sans-serif;
 }
 .landingTwo .content p {
-   padding-bottom: 15px;
-   font-size: 14px;
+   padding-bottom: 20px;
+   font-size: 13px;
 }
 .landingTwo .content .link {
    display: flex;
@@ -194,4 +154,79 @@ ul {
 .landingTwo .content .card .info h2{
    font-size: 13px;
    font-weight: 300;
+}
+.footerOne {
+   display: flex;
+   gap: 250px;
+   background-color: hsl(239, 22%, 38%);
+   padding: 80px 60px;
+   align-items: center;
+}
+.footerOne .content {
+   width: 500px;
+   color: #fff;
+}
+.footerOne .content h1 {
+   font-size: 22px;
+   padding-bottom: 15px;
+}
+.footerOne .content p {
+   font-weight: 300;
+}
+.footerOne .normal {
+   display: block;
+   gap: 0;
+   align-items: flex-start;
+}
+.footerOne .normal input {
+   width: 400px;
+    padding: 12px;
+    outline: none;
+}
+.footerOne .normal .btn {
+   padding: 8px 30px;
+   width: fit-content;
+   margin-top: 10px;
+}
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: hsl(243, 87%, 12%);
+   padding: 80px 60px;
+
+}
+
+.email {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.email input {
+   width: 225px;
+   padding: 8px;
+   outline: none;
+}
+.email .btn {
+   background-color: hsl(224, 93%, 58%);
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   -ms-border-radius: 3px;
+   -o-border-radius: 3px;
+   transition: 0.4s;
+   padding: 8px 30px;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
+}
+.email .btn:hover {
+   background-color: hsl(224, 54%, 58%);
+}
+.email .btn a {
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
 }
